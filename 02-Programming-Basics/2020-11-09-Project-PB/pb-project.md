@@ -16,7 +16,7 @@ Congratulations! You have made it through the Programming Basics module. In orde
 
  1. Read entire project chapter.
  2. Make the program work. 
- 3. Answer all three Exercises at the end of the chapter and sumit answers as JS file.
+ 3. Answer all three Exercises at the end of the chapter and submit answers as JS file.
  4. Write a (max) two page report, explaining:
  
     a. Your understanding of the flow of the program (where does it start and where does it end?)

@@ -650,7 +650,7 @@ console.log(pigLatin("Cats are great pets"));  */
 
 
 
-let str = "Cats are great pets";
+/* let str = "Cats are great pets";
 let arr = str.split(" "); 
 function check(value){
     
@@ -676,6 +676,16 @@ function pigLatin(x){
     return x.charAt(0).toUpperCase() + x.substring(1); 
 }
 console.log(pigLatin(before_uppercase));
+ */
+
+var array1 = [1, 2, 3];
+var array2 = [2, 30, 1]; 
+var merged = array1.concat(array2);
+function check(values,index,self) {
+    return self.indexOf(values)==index;
+    }
+    console.log(merged.filter(check));
+
 
 
 

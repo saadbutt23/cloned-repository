@@ -1,4 +1,4 @@
-var roads = [
+/* var roads = [
     "Alice's House-Bob's House",   "Alice's House-Cabin",
     "Alice's House-Post Office",   "Bob's House-Town Hall",
     "Daria's House-Ernie's House", "Daria's House-Town Hall",
@@ -137,8 +137,63 @@ var roads = [
   }
   
    console.log(runRobot(VillageState.random(), randomRobot, [])); 
-  
-  
+   */
+
+
+  /* let people = [
+    {name: "Lewes", age: "18", salary: 20000},
+    {name: "Anna", age: "16", salary: 20000},
+    {name: "Saad", age: "88", salary: 80000},
+    
+  ]
 
   
-  
+function check(obj){
+  return obj.salary;
+
+  };
+var arr_2 = people.map(check); // check is a call back function, written in a conventional manner for better understanding (not in ES6 fashion)
+const reducer = (accumulator,currentValue) => accumulator+currentValue;
+console.log(arr_2.reduce(reducer)); 
+    */
+
+
+/* let arr = [1,2,3,4,5,6,7,8,10,11,13,15,20];
+
+const _ = require('lodash'); 
+let reference = _.range(1,21); 
+
+function check(value){
+  return function check_again(original_array){
+    return !value.includes(original_array);
+  }
+}
+console.log(reference.filter(check(arr))); */
+
+
+
+
+
+/* const arr = [1,2,3,4,5,6,7,7,8,6,10];
+/* console.log(arr.indexOf(1));  */
+
+/* function check(value,index,self){
+return self.indexOf(value)==index
+}
+
+
+console.log(arr.filter(check))  
+
+ */
+
+ /* const arr1 = [2,1];
+ const other = [2,3];
+ 
+ 
+function check(value){
+  return function check_again(arr_reference){
+    return !value.includes(arr_reference);
+  }
+}
+ console.log(other.filter(check(arr1))); */
+ 
