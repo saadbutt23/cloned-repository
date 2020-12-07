@@ -13,6 +13,8 @@ function scrollWindow() {
             siteHeading.classList.add("nav-heading");
         }
     });
+   
 }
 
-export { scrollWindow };
+export {scrollWindow}; 
+
