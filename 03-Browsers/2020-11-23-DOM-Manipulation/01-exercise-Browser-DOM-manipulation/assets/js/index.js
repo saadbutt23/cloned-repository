@@ -1,6 +1,6 @@
 const books = [
   {
-    title: "The Design of EveryDay Things",
+    title: "The Design of Everyday Things",
     author: "Don Norman",
     alreadyRead: false,
     img:
@@ -25,6 +25,7 @@ const books = [
     author: "Marijn Haverbeke",
     alreadyRead: false,
     img: "https://eloquentjavascript.net/img/cover.jpg"
+<<<<<<< HEAD
   }
 ];
 
@@ -144,3 +145,17 @@ else{
 }
 
 image(); 
+=======
+  },
+  {
+	title: "You do not know Javascript",
+	author: "Kyle Simpson",
+	alreadyRead: false,
+	img: "https://images-na.ssl-images-amazon.com/images/I/51llKt2oJEL._SX333_BO1,204,203,200_.jpg"
+  },
+]
+
+
+
+
+>>>>>>> b9fa0cc86fbe4dbb8c1c0e88e52c7d91815cc288

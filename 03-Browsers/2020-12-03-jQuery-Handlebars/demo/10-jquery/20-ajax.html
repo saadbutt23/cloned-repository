@@ -9,18 +9,19 @@
 </head>
 <body>
 	<h1>jQuery - ajax</h1>
+	<a href="https://learn.jquery.com/about-jquery/how-jquery-works/">Source for this Demonstration</a>
 
 	<div id="ext1"></div>
 	<div id="ext2"></div>
 
-	<div class="class_b">FOOTER</div>
+	<div id="footer" class="class_b">FOOTER</div>
 
 <script>
  
 $("div").addClass("class_a");
 $("div").addClass("class_c");
 
-//$("div.footer").removeClass("class_b");
+$("#footer").removeClass("class_b");
 
 $("div.footer").click(function(event) {
 	event.preventDefault();
